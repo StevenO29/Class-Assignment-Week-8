@@ -20,7 +20,7 @@ namespace Class_Assignment_Week_8
             InitializeComponent();
         }
         
-        public static string sqlConnection = "server = 139.255.11.84;uid=student;pwd=isbmantap;database=premier_league";
+        public static string sqlConnection = "server = ;uid=;pwd=;database=premier_league";
         public MySqlConnection sqlConnect = new MySqlConnection(sqlConnection); //Sebagai data koneksi ke DBMS
         public MySqlCommand sqlCommand; //Sebagai perintah SQL (select, insert, update, delete)
         public MySqlDataAdapter sqlAdapter; //Sebagai menampung hasil query
